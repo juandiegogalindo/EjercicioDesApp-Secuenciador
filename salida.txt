@@ -1,0 +1,59 @@
+i     |           Expresion           | Jump
+--------------------------------------------
+1     | 1-start              |      
+2     | 1-bool               | → 43 
+3     |                      |      
+4     | P;                   |      
+5     | Q;                   |      
+6     | 2-start              |      
+7     | 2-bool               | → 39 
+8     |                      |      
+9     | A;                   |      
+10    | exp-L-2              | → 15 
+11    |                      |      
+12    | B;                   |      
+13    | C;                   |      
+14    |                      |      
+15    | else                 |      
+16    |                      |      
+17    | D;                   |      
+18    | exp-L-3              | → 37 
+19    |                      |      
+20    | exp-L-3              | → 33 
+21    |                      |      
+22    | F;                   |      
+23    | G;                   |      
+24    | exp-L-4              | → 30 
+25    |                      |      
+26    | H;                   |      
+27    | I;                   |      
+28    |                      |      
+29    |                      | → 24 
+30    | J;                   |      
+31    |                      |      
+32    |                      | → 20 
+33    | K;                   |      
+34    | E;                   |      
+35    | X;                   |      
+36    |                      |      
+37    |                      |      
+38    | 2-end                | → 7  
+39    | Y;                   |      
+40    | Z;                   |      
+41    |                      |      
+42    | 1-end                | → 2  
+43    |                      |      
+
+--- Historial de operaciones de la pila ---
+[PUSH] Linea 2 -> Stack: [2]
+[PUSH] Linea 1 -> Stack: [2, 1]
+[PUSH] Linea 7 -> Stack: [2, 1, 7]
+[PUSH] Linea 6 -> Stack: [2, 1, 7, 6]
+[PUSH] Linea 10 -> Stack: [2, 1, 7, 6, 10]
+[PUSH] Linea 18 -> Stack: [2, 1, 7, 6, 10, 18]
+[PUSH] Linea 20 -> Stack: [2, 1, 7, 6, 10, 18, 20]
+[PUSH] Linea 24 -> Stack: [2, 1, 7, 6, 10, 18, 20, 24]
+[POP] Linea 24 -> Stack: [2, 1, 7, 6, 10, 18, 20]
+[POP] Linea 20 -> Stack: [2, 1, 7, 6, 10, 18]
+[POP] Linea 18 -> Stack: [2, 1, 7, 6, 10]
+[POP] Linea 10 -> Stack: [2, 1, 7, 6]

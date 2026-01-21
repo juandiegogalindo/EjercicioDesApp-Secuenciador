@@ -1,0 +1,11 @@
+A;
+if(exp-L-2)
+{
+	B;
+	C;
+	for(2-start;2-bool;2-end)
+	{
+		D;
+		E;
+	}
+}
