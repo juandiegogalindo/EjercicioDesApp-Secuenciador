@@ -50,15 +50,15 @@ El secuenciador de pasos es un programa que organiza y ejecuta instrucciones en 
 Fundamento Programático
 
 1. Secuenciación de instrucciones:
-Un secuenciador procesa un conjunto de pasos en un orden determinado, lo que permite definir un flujo de ejecución lineal o condicional.
+-Un secuenciador procesa un conjunto de pasos en un orden determinado, lo que permite definir un flujo de ejecución lineal o condicional.
 
 2. Estructuras de control:
-Se utilizan estructuras como ciclos (for, while) y condicionales (if, switch) para decidir qué instrucciones ejecutar y cómo proceder.
+-Se utilizan estructuras como ciclos (for, while) y condicionales (if, switch) para decidir qué instrucciones ejecutar y cómo proceder.
 
 3. Modularización con métodos:
-Cada paso o parte de la lógica suele encapsularse en un método para facilitar la reutilización y claridad del código.
+-Cada paso o parte de la lógica suele encapsularse en un método para facilitar la reutilización y claridad del código.
 
 4. Entrada y salida de datos:
-El programa recibe datos vía consola o parámetros, procesa las secuencias y muestra resultados, reforzando habilidades de interacción básica con el usuario.
+-El programa recibe datos vía consola o parámetros, procesa las secuencias y muestra resultados, reforzando habilidades de interacción básica con el usuario.
 
 Este enfoque permite consolidar el entendimiento de principios esenciales de programación y algoritmia, aplicados a un problema concreto que requiere organizar y ejecutar una serie de acciones de manera lógica y estructurada.
